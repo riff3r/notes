@@ -151,6 +151,10 @@
     border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
     }
 
+    or
+
+    border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 1 100%;
+
 ### Pseudo class & Element
 
     Resources -
