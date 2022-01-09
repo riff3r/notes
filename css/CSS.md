@@ -161,7 +161,73 @@
     https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements
     Details with example - https://www.smashingmagazine.com/2016/05/an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements/
 
-    pseudo-classes are always preceded by a colon (:).
+    pseudo-classes are always preceded by a colon (:)
 
+    pseudo-elements are always preceded by double colon (::)
 
-    pseudo-elements are always preceded by double colon (::).
+### HTML Table
+
+    <table></table>
+    <thead></thead>
+    <tbody></tbody> - Table Body
+    <th></th>       - Table Head
+    <tr></tr>       - Table Row
+    <td></td>       - Table Data
+
+    Example -
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+            </tr>
+        </tbody>
+    </table>
+
+    table, th, td {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    padding: 5px 20px;
+    }
+
+### HTML Form
+
+    Fieldset Legend
+
+    Radio Button
+        - Use label for input.
+        - Use unique id in input
+        - Use Same name for
+
+    EXAMPLE -
+    <form action="">
+      <label for="lol"> <input type="radio" id="lol" name="moba" /> LOL </label>
+      <label for="DOTA"> <input type="radio" id="DOTA" name="moba" /> DOTA </label>
+    </form>
+
+    Checkbox
+
+    button  type - submit, reset
+
+### Nav
+
+    Nested Navigation -
+    nav > ul > li:hover > ul{
+        display: block;
+    }
+
+### HTML Tags
+
+    Resource - https://web.programming-hero.com/web-5/video/web-5-6-8-all-html-tags-everything-you-need-to-know-about-html
+
+### HTML Attribute Reference
+
+    https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+    https://www.w3schools.com/tags/ref_attributes.asp
+
+### CSS3
