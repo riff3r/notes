@@ -230,4 +230,52 @@
     https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
     https://www.w3schools.com/tags/ref_attributes.asp
 
-### CSS3
+### More CSS, Icon, CSS3 Animation
+
+    visibility: hidden - Content not displaying in html but taken place / space.
+    display: none - Totally invisible
+
+    overflow: visible -
+    overflow: Hidden - hide the rest of content
+    overflow: Scroll - Create scroll bar in x and y axis
+    overflow-x, overflow-y Use if needed
+
+### text-overflow: ellipsis
+
+    // Parent Div
+    .mini-mini {
+    width: 300px;
+    border: 3px solid indianred;
+    }
+
+    // text overflow
+    .short-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
+
+### Transform
+
+    /* Multiple function values */
+    transform: translate(100px, 100px) scale(0.5) rotate(30deg);
+    transform: perspective(500px) translate(10px, 0, 20px) rotateY(3deg);
+
+    https://www.w3schools.com/cssref/css3_pr_transform.asp
+    https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+### Transition
+
+    transition: <property> <duration> <timing-function> <delay>;
+
+    Multiple property with coma - transition: width 1s, transform 1s;
+
+    Resource - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
+
+### Animation
+
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+
+    animation: sliding 1s ease-in-out 0.5s infinite alternate;
+
+    https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
