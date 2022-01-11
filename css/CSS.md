@@ -279,3 +279,15 @@
     animation: sliding 1s ease-in-out 0.5s infinite alternate;
 
     https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
+
+### Gradient Text Color
+
+    1. background: linear-gradient(left, #38d39f, #38a4d3)
+    2. background-clip: text; / -webkit-background-clip: text;
+
+    3. -webkit-text-fill-color: transparent;
+
+### Image ratio, fixed height and width
+
+    If fixed height and width given then use to image tag then add
+    object-fit: cover;
