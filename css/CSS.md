@@ -291,3 +291,28 @@
 
     If fixed height and width given then use to image tag then add
     object-fit: cover;
+
+### Flexbox
+
+    https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+    display: flex;
+    justify-content;
+    align-item: stretch; // stretch to fill the container
+    flex-grow: 1;
+
+    flex-wrap: wrap;  // By default, flex items will all try to fit onto one line. You can change that and allow the items to wrap as needed with this property.
+
+    order:1; // the order property controls the order in which they appear in the flex container.
+
+### Grid
+
+    https://css-tricks.com/snippets/css/complete-guide-grid/
+    https://www.viget.com/articles/getting-started-with-css-grid-part-1/
+    https://www.viget.com/articles/getting-started-with-css-grid-three-part-2/
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(4, 1fr) 2fr;
+        grid-gap: 20px;
