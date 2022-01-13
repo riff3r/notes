@@ -1,4 +1,10 @@
-# CSS
+# HTML & CSS
+
+    html5 tag list
+    https://www.tutorialrepublic.com/html-reference/html5-tags.php
+
+    css propertise
+    https://www.tutorialrepublic.com/css-reference/css3-properties.php
 
 ### Typography
 
@@ -316,3 +322,56 @@
         grid-template-columns: repeat(4, 1fr);
         grid-template-columns: repeat(4, 1fr) 2fr;
         grid-gap: 20px;
+
+# UI UX DeBug
+
+### Rules to follow as best practice while designing a website
+
+    1. Website Purpose - Simplicity
+    2. Color
+    3. Alignment
+    4. White Space
+    5. Typography
+
+### Design Resources, figma edit and design secrets
+
+    search - figma resources
+
+### CSS specificity, style priority and !important
+
+    https://css-tricks.com/specifics-on-css-specificity/
+
+    https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+
+    CSS Specificity
+
+    tag > class > id > !important (Do not use)
+
+### CSS Custom property and use var, calc
+
+    :root{
+        --main-color: blue;
+    }
+
+    body{
+        color: var(--main-color)
+    }
+
+### Advanced selectors
+
+    https://css-tricks.com/almanac/selectors/a/attribute/
+
+    Attribute Selector. Ex -
+    input[type="text"]{
+        width: 200px;
+    }
+
+### BEM
+
+    https://css-tricks.com/bem-101/
+
+
+    airbnb css style guides
+
+    https://github.com/airbnb/css
+    https://cssguidelin.es/
