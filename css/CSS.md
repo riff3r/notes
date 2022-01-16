@@ -303,9 +303,12 @@
     https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
     display: flex;
-    justify-content;
+    flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
+
     align-item: stretch; // stretch to fill the container
-    flex-grow: 1;
+    flex-grow: 1; // This defines the ability for a flex item to grow if necessary
+    flex-wrap: wrap; // flex items will wrap onto multiple lines, from top to bottom.
+    flex-flow: column wrap; // flex-direction and flex-wrap
 
     flex-wrap: wrap;  // By default, flex items will all try to fit onto one line. You can change that and allow the items to wrap as needed with this property.
 
