@@ -238,6 +238,11 @@
 
 ### More CSS, Icon, CSS3 Animation
 
+    css animation library
+    https://css-tricks.com/css-animation-libraries/
+    https://animate.style/
+
+
     visibility: hidden - Content not displaying in html but taken place / space.
     display: none - Totally invisible
 
